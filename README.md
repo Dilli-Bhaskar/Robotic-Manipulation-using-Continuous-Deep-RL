@@ -3,7 +3,7 @@
 This project focuses on training a 7 DOF robotic arm agent from the PandaReach-v3 environment available in the panda-gym toolkit. The PandaReach-v3 task involves controlling a robotic arm to reach target objects in a simulated environment.We explore advanced algorithms for continuous control: Soft Actor Critic (SAC), Normalized Advantage Function (NAF) and Twin Delayed Deep Deterministic Policy Gradient (TD3) to train the agent for this task. The models are designed to handle environments where actions are continuous, like controlling robotic arm joints with precision. These algorithms aim to discover policies that effectively map observed states to continuous actions, optimizing the accumulation of expected rewards. 
 
 <p align="center">
-  <img src="assets/TD3.mp4"/>
+  <img src="assets/TD3.gif"/>
 </p>
 
 ## Hindsight Experience Replay (HER)
@@ -17,7 +17,7 @@ Hindsight Experience Replay (HER) is a technique developed to tackle the challen
 - Average reward of the expert over 1000 episodes = -1.768
 
 <p align="center">
-  <img src="assets/plot.png" width="300" />
+  <img src="assets/plot.png" width="700" />
  
 </p>
 
